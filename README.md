@@ -52,7 +52,7 @@ with open("PATH TO API.TXT", "r") as file:
 # You'll need to update the following areas of your polybar/config file:
 
 font-0 = Product Sans:size=10;2
-font-1 = Sauce Code Pro NF:size=18;4
+font-1 = Sauce Code Pro Nerd Font:size=12;2
 
 modules-left = 
 modules-center = 
