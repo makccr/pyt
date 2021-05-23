@@ -6,7 +6,7 @@
 This is a module, and a python script that enables users to place the YouTube subscriber count for any YouTube channel into their polybar configuration. The module requires a [YouTube API key](https://developers.google.com/youtube/v3/getting-started), additional instructions for which are included below.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/makccr/pyt/main/shot.png">
+<img src="https://github.com/makccr/pyt/blob/master/shot.png">
 </p>
 
 ## Dependencies
