@@ -63,7 +63,7 @@ type = custom/script
 interval = 1800
 format-prefix = "  "
 format = <label>
-exec = /home/makc/.scripts/sub.py
+exec = /home/makc/.config/polybar/sub.py
 ```
 
 ### YouTube Video
