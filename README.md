@@ -3,7 +3,7 @@
 </a>
 
 # Polybar YouTube Module
-This is a module, and a python script that enables users to place the YouTube subscriber count for any YouTube channel into their polybar configuration. The module requires a [YouTube API key](https://developers.google.com/youtube/v3/getting-started), additional instructions for which are included below. This module is effectively a fork of a similar python script created by [HowCode.org](https://howcode.org/), in a tangentially related [YouTube Video](https://www.youtube.com/watch?v=jaxjVqgLEs0).
+This is a module, and a python script that enables users to place the YouTube subscriber count for any YouTube channel into their polybar configuration. The module requires a [YouTube API key](https://developers.google.com/youtube/v3/getting-started), additional instructions for which are included below.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/makccr/pyt/main/shot.png">
