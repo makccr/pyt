@@ -69,7 +69,7 @@ exec = /home/makc/.config/polybar/sub.py
 ### YouTube Video
 I've also created a YouTube video with details for setting up and API key, and using the module. If you have any questions, feel free to check out the video: 
 
-[![YT Sub Count Module](https://img.youtube.com/vi/Cj-frgJj83M /maxresdefault.jpg)](https://youtu.be/Cj-frgJj83M )
+[![YT Sub Count Module](https://img.youtube.com/vi/Cj-frgJj83M/maxresdefault.jpg)](https://youtu.be/Cj-frgJj83M )
 
 ### Trouble-shooting 
 1. You may need to run chmod to make the sub.py file executable after unzipping the files: 
