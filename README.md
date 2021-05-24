@@ -52,7 +52,7 @@ with open("PATH TO API.TXT", "r") as file:
 # You'll need to update the following areas of your polybar/config file:
 
 font-0 = Product Sans:size=10;2
-font-1 = Sauce Code Pro Nerd Font:size=12;2
+font-1 = Sauce Code Pro NF:size=18;4
 
 modules-left = 
 modules-center = 
@@ -67,10 +67,9 @@ exec = /home/makc/.config/polybar/sub.py
 ```
 
 ### YouTube Video
-**Video Will be Added Shortly**
 I've also created a YouTube video with details for setting up and API key, and using the module. If you have any questions, feel free to check out the video: 
 
-[![YT Sub Count Module](https://img.youtube.com/vi/VIDEOID/maxresdefault.jpg)](https://youtu.be/VIDEOID)
+[![YT Sub Count Module](https://img.youtube.com/vi/Cj-frgJj83M /maxresdefault.jpg)](https://youtu.be/Cj-frgJj83M )
 
 ### Trouble-shooting 
 1. You may need to run chmod to make the sub.py file executable after unzipping the files: 
