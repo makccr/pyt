@@ -3,7 +3,7 @@
 </a>
 
 # Polybar YouTube Module
-This is a module, and a python script that enables users to place the YouTube subscriber count for any YouTube channel into their polybar configuration. The module requires a [YouTube API key](https://developers.google.com/youtube/v3/getting-started), additional instructions for which are included below.
+This is a module, and a python script that enables users to place the YouTube subscriber count for any YouTube channel into their polybar configuration. 
 
 <p align="center">
 <img src="https://github.com/makccr/pyt/blob/master/shot.png">
@@ -25,27 +25,16 @@ sudo yay -S ttf-google-fonts-git
 * [Gnome Character Map](https://wiki.gnome.org/Apps/Gucharmap) (``gucharmap``), is a handy tool that will let you pick glyphs or icons, if you wan't to use a different font.
 
 ## Installation Instructions
-1. Download [ytSubCount.zip](https://github.com/makccr/pyt/releases) from the releases page. 
-2. Navigate to your Downloads directory, and unzip the file:
+1. Change directory into your polybar config, clone the repo:
 ```
-sudo pacman -S unzip && cd Downloads && unzip ytSubCount.zip
+cd ~/.config/polybar
+git clone https://github.com/makccr/pyt.git
 ```
-3. Copy the ``api.txt``, and ``sub.py``, into your polybar config directory:
+2. Make the script executable
 ```
-cp ~/Downloads/yt/api.txt ~/.config/polybar/api.txt && cp ~/Downloads/yt/sub.py ~/.config/polybar/sub.py
-```
-4. Navigate into the polybar config, and update the ``sub.py`` & ``api.key`` with:
-    * Your API key (in ``api.txt``).
-    * The path you the api.txt file (in ``sub.py``).
-    * The username of the YouTube channel you wish to track (in ``sub.py``)
-```
-USERNAME="YOUTUBE-USERNAME" #replace with channel username
-
-# You can also need to update the filepath below, with the path to a text document
-# containing your YouTube API key.
-# Default: /home/YOURSYSTEMUSERNAME/.config/polybar/api.txt
-with open("PATH TO API.TXT", "r") as file:
-    APIKEY = file.readline().strip()
+cd pyt
+chmod +x sub.py
+cd ..
 ```
 5. Edit ``polybar/config``, to include the new module: 
 ```
@@ -63,7 +52,7 @@ type = custom/script
 interval = 1800
 format-prefix = "  "
 format = <label>
-exec = /home/makc/.config/polybar/sub.py
+exec = /home/makc/.config/polybar/pyt/sub.py
 ```
 
 ### YouTube Video
