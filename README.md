@@ -36,7 +36,7 @@ cd pyt
 chmod +x sub.py
 cd ..
 ```
-5. Edit ``polybar/config``, to include the new module: 
+3. Edit ``polybar/config``, to include the new module: 
 ```
 # You'll need to update the following areas of your polybar/config file:
 
